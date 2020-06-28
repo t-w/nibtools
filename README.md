@@ -93,7 +93,7 @@ The latest version of this program is available on http://c64preservation.com/ni
       http://www.computerbrains.com/ccs64/
 
 [3] VICE homepage
-      http://viceteam.org/
+      https://vice-emu.sourceforge.io/
 
 
 "Thank you!" to all people who helped me out with information and testing
