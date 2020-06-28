@@ -1,6 +1,6 @@
 # NIBTools - Commodore 1541/1571 disk image nibbler
 
-homepage: http://c64preservation.com/nibtools
+homepage: https://c64preservation.com/dp.php?pg=nibtools
 
 NIBTOOLS is copyrighted
 (C) 2005 Pete Rittwage and the C64 Preservation Project team
@@ -106,7 +106,7 @@ The latest version of this program is available on http://c64preservation.com/ni
 * Chris Link            
 * Jerry Kurtz
 * Wolfgang Moser       
-* H†kan Sundell         
+* Hï¿½kan Sundell         
 * Nicolas Welte         
 * Tim Schurman
 * Spiro Trikaliotis
