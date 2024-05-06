@@ -4,12 +4,8 @@
  * based on MNIB by Markus Brenner <markus(at)brenner(dot)de>
  */
 
-#define VERSION "Built "__DATE__" "__TIME__
-#define AUTHOR "(C) Peter Rittwage and the rest of the C64 Preservation Project team\nhttp://c64preservation.com\n"
 
-#ifndef SVN
-#define SVN 2014
-#endif
+#include "nibtools_version.h"
 
 #define FL_STEPTO      			0x00
 #define FL_MOTOR       		0x01
