@@ -70,7 +70,12 @@ win64:
 		nibconv nibscan nibrepair nibread nibwrite nibsrqtest
 
 # Warning level.  Don't reduce, fix your new code instead.
-WARNS= -W -Wall -Wstrict-prototypes -Wno-unused-parameter -Wpointer-arith 
+WARNS= -W -Wall -Wstrict-prototypes -Wno-unused-parameter -Wpointer-arith \
+       -Wextra -Wconversion -pedantic \
+       -Werror-implicit-function-declaration \
+       -Wsign-conversion
+#       -Werror=format-security
+
 
 # Common objects
 OBJ=gcr.o prot.o fileio.o crc.o md5.o lz.o
