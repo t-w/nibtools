@@ -50,7 +50,7 @@ dos:
 		nibconv nibscan nibrepair nibread nibwrite
 
 linux:
-	${MAKE} CFLAGS="-I include/LINUX/ -I ${CBM_LNX_PATH}/include ${CFLAGS}  -std=c99" \
+	${MAKE} CFLAGS="-I include/LINUX/ -I ${CBM_LNX_PATH}/include ${CFLAGS}  -std=c99 -D_BSD_SOURCE" \
 		LDFLAGS="-L${CBM_LNX_PATH}/lib -lopencbm" \
 		-f GNU/Makefile \
 		nibconv nibscan nibrepair nibread nibwrite nibsrqtest
