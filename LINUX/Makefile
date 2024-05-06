@@ -1,7 +1,7 @@
 # $Id: Makefile,v 1.1.1.1 2007/01/21 17:15:35 peter Exp $
 
-RELATIVEPATH=../
-include ${RELATIVEPATH}LINUX/config.make
+#RELATIVEPATH=../
+#include ${RELATIVEPATH}LINUX/config.make
 
 .PHONY: all mrproper clean install uninstall install-files
 
