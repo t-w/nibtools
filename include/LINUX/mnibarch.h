@@ -1,4 +1,7 @@
 
+#ifndef MNIBARCH_H
+#define MNIBARCH_H
+
 #include <stdint.h>
 #include <unistd.h>
 
@@ -19,4 +22,6 @@ typedef int CBM_FILE;
 
 #ifndef min
 #define min(x, y) ((x) > (y) ? (y) : (x))
+#endif
+
 #endif
