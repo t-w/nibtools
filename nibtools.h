@@ -8,10 +8,6 @@
 #include "nibtools_version.h"
 #include "nibtools_defs.h"
 
-#ifndef DJGPP
-#include <opencbm.h>
-#endif
-
 /* global variables */
 #include "nibtools_global.h"
 
