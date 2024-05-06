@@ -103,13 +103,13 @@ nibsrqtest.c: ${NIBTOOLS_BIN}
 nibwrite.c: ${NIBTOOLS_BIN} 
 
 nibconv: ${OBJ} nibconv.o
-	${CC} -o nibconv$(EXE) nibconv.o ${OBJ} $(LDFLAGS)
+	${CC} -o nibconv$(EXE) nibconv.o ${OBJ}
 
 nibrepair: ${OBJ} nibrepair.o
-	${CC} -o nibrepair$(EXE) nibrepair.o ${OBJ} $(LDFLAGS)
+	${CC} -o nibrepair$(EXE) nibrepair.o ${OBJ}
 
 nibscan: ${OBJ} nibscan.o
-	${CC} -o nibscan$(EXE) nibscan.o ${OBJ} $(LDFLAGS)
+	${CC} -o nibscan$(EXE) nibscan.o ${OBJ}
 
 clean:
 	${RM} *.o ${MNIB_BIN} *.bin *.inc nib*.exe
