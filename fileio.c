@@ -14,9 +14,7 @@
 
 #include "mnibarch.h"
 #include "gcr.h"
-#include "nibtools_defs.h"
-#include "nibtools_global.h"
-#include "fileio.h"
+#include "nibtools.h"
 #include "prot.h"
 #include "crc.h"
 #include "md5.h"
